@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background:#f5f2ec;
+    font-family:'Cormorant Garamond', serif;
+    color:#12295c;
+}
+
+
+/* HEADER */
+
+
+header{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+
+.logo-section img{
+    width:60px;
+}
+
+
+.logo-section h1{
+    font-size:3rem;
+    font-weight:400;
+    font-family:'Playfair Display', serif;
+}
+
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:50px;
+}
+
+
+nav a{
+    text-decoration:none;
+    color:#12295c;
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+
+.active{
+    color:#b88643;
+    border-bottom:4px solid black;
+    padding-bottom:8px;
+}
+
+
